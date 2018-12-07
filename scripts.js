@@ -1,3 +1,10 @@
-var msg = "Hello Carlos";
+function exibir() {
+    var nome = "Carlos";
+    var oi = "Hello";
 
-console.log(msg);
+    var mensagem;
+
+    mensagem = oi + " " + nome + "!";
+
+    alert(mensagem);
+}
